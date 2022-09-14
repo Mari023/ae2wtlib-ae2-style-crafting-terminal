@@ -1,0 +1,64 @@
+{
+  "includes": ["../terminals/crafting_terminal.json"],
+  "slots": {
+    "AE2WTLIB_TRASH": {
+      "left": 98,
+      "bottom": 106,
+      "hidden": true
+    },
+    "AE2WTLIB_HELMET": {
+      "left": 8,
+      "bottom": 160,
+      "hidden": true
+    },
+    "AE2WTLIB_CHESTPLATE": {
+      "left": 8,
+      "bottom": 142,
+      "hidden": true
+    },
+    "AE2WTLIB_LEGGINGS": {
+      "left": 8,
+      "bottom": 124,
+      "hidden": true
+    },
+    "AE2WTLIB_BOOTS": {
+      "left": 8,
+      "bottom": 106,
+      "hidden": true
+    },
+    "AE2WTLIB_OFFHAND": {
+      "left": 80,
+      "bottom": 106,
+      "hidden": true
+    },
+    "AE2WTLIB_SINGULARITY": {
+      "left": 152,
+      "bottom": 106
+    }
+  },
+  "images": {
+    "singularityBackground": {
+      "texture": "wtlib/guis/crafting.png",
+      "srcRect": [151, 136, 169, 154]
+    }
+  },
+  "widgets": {
+    "emptyTrash": {
+      "left": -9999,
+      "bottom": -9999
+    },
+    "player": {
+      "left": -9999,
+      "bottom": -9999
+    },
+    "upgrades": {
+      "$comment": "The upgrade panel found on some screens",
+      "right": -2,
+      "top": 107
+    },
+    "singularityBackground": {
+      "left": 151,
+      "bottom": 107
+    }
+  }
+}
