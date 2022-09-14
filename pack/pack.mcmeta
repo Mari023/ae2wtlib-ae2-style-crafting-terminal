@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 9,
-    "description": "changes ae2wtlib's wireless crafting terminal to look more like ae2's"
+    "description": "undo ae2wtlib's wireless crafting terminal"
   }
 }
