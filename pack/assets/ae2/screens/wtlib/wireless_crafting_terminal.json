@@ -39,7 +39,7 @@
   "images": {
     "singularityBackground": {
       "texture": "wtlib/guis/crafting.png",
-      "srcRect": [151, 136, 169, 154]
+      "srcRect": [151, 136, 18, 18]
     }
   },
   "widgets": {
