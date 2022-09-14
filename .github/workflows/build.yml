@@ -15,7 +15,4 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3
         with:
           path: pack
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.2
-        with:
-          path: pack.zip
+          artifact_name: Resource Pack
