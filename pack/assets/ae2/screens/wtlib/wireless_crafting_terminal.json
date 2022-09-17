@@ -38,8 +38,8 @@
   },
   "images": {
     "singularityBackground": {
-      "texture": "wtlib/guis/crafting.png",
-      "srcRect": [151, 136, 18, 18]
+      "texture": "wtlib/guis/extras.png",
+      "srcRect": [151, 89, 18, 18]
     }
   },
   "widgets": {
