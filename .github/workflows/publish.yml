@@ -43,5 +43,5 @@ jobs:
             ae2 | depends | 12.8.4
           version: ${{ env.version_name }}
           name: ${{ env.version_name }}
-          files-primary: download/Resource Pack.zip
+          files-primary: download/pack.zip
           files-secondary: ""
