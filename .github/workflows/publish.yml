@@ -38,9 +38,9 @@ jobs:
           loaders: minecraft
           game-versions: 1.19.2
           modrinth-dependencies: |
-            applied-energistics-2-wireless-terminals | depends | 12.5.1-beta-fabric
-            applied-energistics-2-wireless-terminals | depends | 12.5.1-beta-forge
-            ae2 | depends | 12.5.1-beta
+            applied-energistics-2-wireless-terminals | depends | 12.8.4-fabric
+            applied-energistics-2-wireless-terminals | depends | 12.5.1-forge
+            ae2 | depends | 12.8.4
           version: ${{ env.version_name }}
           name: ${{ env.version_name }}
           files-primary: download/pack.zip
