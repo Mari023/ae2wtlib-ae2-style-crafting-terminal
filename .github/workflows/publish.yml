@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
         with:
-          name: pack
+          name: Resource Pack
           path: download
 
       - uses: Kir-Antipov/mc-publish@v3.1
@@ -43,5 +43,5 @@ jobs:
             ae2 | depends | 12.8.4
           version: ${{ env.version_name }}
           name: ${{ env.version_name }}
-          files-primary: download/pack.zip
+          files-primary: download/Resource Pack.zip
           files-secondary: ""
