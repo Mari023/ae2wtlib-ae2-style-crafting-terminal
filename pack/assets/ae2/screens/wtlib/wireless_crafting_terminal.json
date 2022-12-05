@@ -1,45 +1,38 @@
 {
-  "includes": ["../terminals/crafting_terminal.json"],
+  "includes": [
+    "../terminals/crafting_terminal.json",
+    "universal_terminal_with_viewcells.json"
+  ],
   "slots": {
     "AE2WTLIB_TRASH": {
-      "left": 98,
-      "bottom": 106,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
     },
     "AE2WTLIB_HELMET": {
-      "left": 8,
-      "bottom": 160,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
     },
     "AE2WTLIB_CHESTPLATE": {
-      "left": 8,
-      "bottom": 142,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
     },
     "AE2WTLIB_LEGGINGS": {
-      "left": 8,
-      "bottom": 124,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
     },
     "AE2WTLIB_BOOTS": {
-      "left": 8,
-      "bottom": 106,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
     },
     "AE2WTLIB_OFFHAND": {
-      "left": 80,
-      "bottom": 106,
+      "left": -9999,
+      "bottom": -9999,
       "hidden": true
-    },
-    "AE2WTLIB_SINGULARITY": {
-      "left": 152,
-      "bottom": 106
-    }
-  },
-  "images": {
-    "singularityBackground": {
-      "texture": "wtlib/guis/extras.png",
-      "srcRect": [151, 89, 18, 18]
     }
   },
   "widgets": {
@@ -50,15 +43,6 @@
     "player": {
       "left": -9999,
       "bottom": -9999
-    },
-    "upgrades": {
-      "$comment": "The upgrade panel found on some screens",
-      "right": -2,
-      "top": 107
-    },
-    "singularityBackground": {
-      "left": 151,
-      "bottom": 107
     }
   }
 }
